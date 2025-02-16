@@ -6,21 +6,21 @@ public class Main {
         /* *3*   Create a 2D array or integer type where you will store odd and even
         numbers. Develop a program which will identify/print the even numbers
         only*/
-        int num [][]={
-                {1, 2, 3, 20, 40},
-                {9, 30, 13},
-                {16, 8, 4},
-                {5, 12, 18}
+        // Create a 2D array with a mix of odd and even numbers
+        int[][] numbers = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
         };
-        for (int i=0;i< num.length;i++){
-            for (int j=0;j<num[i].length;j++){
-                if ( num[i][j] %2==0){
-                    System.out.print(num[i][j]+" ");
 
+        // Loop through the 2D array to find and print even numbers
+        System.out.println("Even numbers in the 2D array:");
+        for (int[] row : numbers) {
+            for (int number : row) {
+                if (number % 2 == 0) { // Check if the number is even
+                    System.out.print(number + " ");
                 }
             }
-            System.out.println();
-
         }
 
     }
