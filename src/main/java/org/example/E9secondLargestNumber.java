@@ -16,7 +16,7 @@ public class E9secondLargestNumber {
             }
 
         }
-        System.out.println("The second largest number is: " + secondLargest);
+        System.out.println("The Second largest number is: " + secondLargest);
 
 
     }
