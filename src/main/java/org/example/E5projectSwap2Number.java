@@ -1,6 +1,6 @@
 package org.example;
 
-public class projectSwap2Number {
+public class E5projectSwap2Number {
     public static void main(String[] args) {
 
 

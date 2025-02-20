@@ -1,6 +1,6 @@
 package org.example;
 
-public class Main {
+public class E3StoreOddandeven {
     public static void main(String[] args) {
 
         /* *3*   Create a 2D array or integer type where you will store odd and even
